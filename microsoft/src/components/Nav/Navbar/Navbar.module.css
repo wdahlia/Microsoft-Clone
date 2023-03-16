@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4em;
+}
+
+.navbar .logo {
+  height: 2em;
+}
+
+.navbar .tabList {
+  display: flex;
+  column-gap: 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

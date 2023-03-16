@@ -1,10 +1,8 @@
 import React from 'react';
 
-export default function TabMenu() {
+export default function TabMenu({ children }) {
   return (
-    <div>
-      
-    </div>
+    <li>{ children }</li>
   );
 }
 
