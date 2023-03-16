@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  column-gap: 1.8rem;
+  width: calc(100vw - 3rem);
+  justify-content: center;
+}
+
+.container .box {
+  max-width: 20em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: start;
+}
+
+.container .infoImg {
+  width: 20em;
+}
+
+.container .title {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+.container .content {
+  font-size: 1.2rem;
+  font-weight: 500;
+}

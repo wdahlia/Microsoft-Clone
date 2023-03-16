@@ -3,10 +3,16 @@
   justify-content: space-around;
   align-items: center;
   height: 4em;
+  margin: 0 auto;
+}
+
+.navbar .mainNav {
+  display: flex;
+  align-items: center;
 }
 
 .navbar .logo {
-  height: 2em;
+  height: 1.9em;
 }
 
 .navbar .tabList {
@@ -14,4 +20,12 @@
   column-gap: 1.5rem;
   font-size: 1.1rem;
   cursor: pointer;
+  margin-left: 2rem;
+}
+
+.dropdown::after {
+  content: '\f0d7';
+  display: inline-block;
+  font-family: fontAwesome;
+  margin-left: 0.4rem;
 }

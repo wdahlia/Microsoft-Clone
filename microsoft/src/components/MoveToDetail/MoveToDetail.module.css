@@ -1,0 +1,25 @@
+.link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #0067B8;
+}
+
+.link::after {
+  content: '\f105';
+  font-family: fontAwesome;
+  margin: auto 0 auto 0.5rem;
+  transition: margin 0.3s ease-in-out;
+}
+
+.link:hover::after {
+  color: #0067B8;
+  margin-left: 0.9rem;
+  transition: margin 0.4s ease-in-out;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #2a91e6;
+}
+

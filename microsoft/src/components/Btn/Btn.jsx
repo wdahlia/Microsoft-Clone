@@ -1,10 +1,9 @@
 import React from 'react';
+import styles from './Btn.module.css';
 
-export default function Btn() {
+export default function Btn({ value }) {
   return (
-    <div>
-      
-    </div>
+    <butto className={styles.btn}>{value}</butto>
   );
 }
 
