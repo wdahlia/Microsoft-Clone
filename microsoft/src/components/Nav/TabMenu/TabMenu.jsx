@@ -3,7 +3,9 @@ import styles from './TabMenu.module.css';
 
 export default function TabMenu({ children }) {
   return (
-    <li className={styles.li}>{ children }</li>
+    <li className={styles.li}>
+      <button className={styles.listBtn}>{ children }</button>
+    </li>
   );
 }
 

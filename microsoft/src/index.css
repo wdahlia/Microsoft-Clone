@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
 }
 
 body {
@@ -16,6 +20,8 @@ button {
   outline: none;
   cursor: pointer;
   border: none;
+  user-select: none;
+  background-color: initial;
 }
 
 input {

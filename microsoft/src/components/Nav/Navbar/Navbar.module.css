@@ -18,7 +18,6 @@
 .navbar .tabList {
   display: flex;
   column-gap: 1.5rem;
-  font-size: 1.1rem;
   cursor: pointer;
   margin-left: 2rem;
 }
