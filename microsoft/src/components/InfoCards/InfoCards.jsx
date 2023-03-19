@@ -10,8 +10,8 @@ export default function InfoCards({ infoList }) {
   return (
     <div className={styles.container}>
       {
-        infoItemList.map((info) => (
-          <div className={styles.box}>
+        infoItemList.map((info, index) => (
+          <div key={index} className={styles.box}>
             <img className={styles.infoImg} src={info.image} alt={info.image}/>
             { info.release ? 
               <Button 

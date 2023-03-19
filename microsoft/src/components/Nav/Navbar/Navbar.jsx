@@ -21,8 +21,8 @@ export default function Navbar() {
       </div>
       <ul className={styles.tabList}>
         <TabMenu><span className={styles.dropdown}>Microsoft 전체</span></TabMenu>
-        <TabMenu><i class="fa-solid fa-magnifying-glass"></i></TabMenu>
-        <TabMenu><i class="fa-solid fa-cart-shopping"></i></TabMenu>
+        <TabMenu><i className="fa-solid fa-magnifying-glass"></i></TabMenu>
+        <TabMenu><i className="fa-solid fa-cart-shopping"></i></TabMenu>
         <TabMenu><UserIcon width="30" height="30"/></TabMenu>
         <TabMenu></TabMenu>
         <TabMenu></TabMenu>

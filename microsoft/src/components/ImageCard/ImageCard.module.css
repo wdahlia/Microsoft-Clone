@@ -1,0 +1,28 @@
+.background {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 500%;
+  width: 1400px;
+  height: 600px;
+  flex: 0 0 auto;
+}
+
+.background .content {
+  font-weight: 500;
+}
+
+.infoBox {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.8rem;
+  align-items: flex-start;
+  width: 100%;
+  top: 13em;
+}
+
+.btnArea {
+  display: flex;
+  column-gap: 1.3rem;
+}
